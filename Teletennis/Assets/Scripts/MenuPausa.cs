@@ -42,6 +42,7 @@ public class MenuPausa : MonoBehaviour
         //Há um peçado de código no script da bolinha que pausa ela também, o comportamento dela é um pouco estranho
 
     public void LoadMenu(){
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
         //No botão File > Build settings > Scenes in build dá pra achar o número da cena
     }
