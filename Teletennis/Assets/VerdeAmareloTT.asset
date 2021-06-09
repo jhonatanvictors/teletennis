@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VerdeAmareloTT
   m_EditorClassIdentifier: 
   colorMode: 3
-  topLeft: {r: 0.355194, g: 1, b: 0.3160377, a: 1}
-  topRight: {r: 0.35686275, g: 1, b: 0.31764707, a: 1}
-  bottomLeft: {r: 1, g: 0.9019608, b: 0, a: 1}
-  bottomRight: {r: 1, g: 0.901886, b: 0, a: 1}
+  topLeft: {r: 1, g: 1, b: 1, a: 1}
+  topRight: {r: 1, g: 1, b: 1, a: 1}
+  bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+  bottomRight: {r: 1, g: 1, b: 1, a: 1}

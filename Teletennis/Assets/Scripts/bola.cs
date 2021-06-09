@@ -16,7 +16,10 @@ public class bola : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position += direction * speed;
+        if (MenuPausa.GameIsPaused){} else {
+            this.transform.position += direction * speed;
+        }
+        
     }
 
     void OnCollisionEnter(Collision col) 
