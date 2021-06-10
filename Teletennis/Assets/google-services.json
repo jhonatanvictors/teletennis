@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "238037496787",
+    "project_id": "teletennis-f763c",
+    "storage_bucket": "teletennis-f763c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238037496787:android:3078078bd4f067b450b526",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Teletennis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238037496787-a4o47sm8v96kih52l475mf9191r99avf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0md_Cl4fQbAp_PdxaURl8oeYSoPT1L_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238037496787-a4o47sm8v96kih52l475mf9191r99avf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
