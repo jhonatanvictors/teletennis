@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//using Photon.Pun;
 
-public class bola : MonoBehaviour
+public class bola : MonoBehaviour //Antigo
+//public class bola : MonoBehaviourPunCallbacks
 {
     private Vector3 direction;
     public float speed;
@@ -61,6 +63,8 @@ public class bola : MonoBehaviour
         } else {
             Instantiate(goalEffect, this.transform.position, Quaternion.identity);
         }
+        
     }
+
 
 }
