@@ -12,6 +12,7 @@ public class jogador1 : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        //this.GetComponent<Animator> ().applyRootMotion = true; //Ainda não está sendo usado animator no projeto.
     }
 
     // Update is called once per frame
