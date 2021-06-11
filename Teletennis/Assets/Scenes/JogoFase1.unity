@@ -1842,12 +1842,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7de6817a0d1ecc34ab94cc539b25b3a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speed: 0.06
+=======
+  speed: 0.04
+>>>>>>> parent of 6a9c294 (nada mudou)
   playerOneScore: 0
   playerTwoScore: 0
   spawnPoint: {x: 0, y: 1.092, z: 0}
   goalEffect: {fileID: 3410870557683057129, guid: 59ca8aa9dc7030848be70fb82a9ecff5, type: 3}
-  goalEffect2: {fileID: 3410870557683057129, guid: 07173b9fc96f5b541b53cfc3e44fb851, type: 3}
   playerOneText: {fileID: 429124677}
   playerTwoText: {fileID: 1796223701}
 --- !u!1 &1255853113

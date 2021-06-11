@@ -18,7 +18,6 @@ public class bola : MonoBehaviour //Antigo
     public Vector3 spawnPoint;
 
     public GameObject goalEffect;
-    public GameObject goalEffect2;
 
     public Text playerOneText;
     public Text playerTwoText;
@@ -52,16 +51,14 @@ public class bola : MonoBehaviour //Antigo
 
         if (col.gameObject.name == "paredeSul"){
             playerTwoScore++;
-            Instantiate(goalEffect2, this.transform.position, Quaternion.identity);
+            Instantiate(goalEffect, this.transform.position, Quaternion.identity);
             transform.position = spawnPoint;
         }
         
         if (col.gameObject.name == "paredeNorte"){
             playerOneScore++;
-            Instantiate(goalEffect2, this.transform.position, Quaternion.identity);
-            transform.position = spawnPoint;
-        } else {
             Instantiate(goalEffect, this.transform.position, Quaternion.identity);
+            transform.position = spawnPoint;
         }
         
     }
