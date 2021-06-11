@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":2331.9892578125,"y":494.6061096191406,"z":-106.16352844238281},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":920.8674926757813,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":688.8338623046875,"y":384.1805114746094,"z":14.56982421875},"rotation":{"x":-0.03626392036676407,"y":0.045552004128694537,"z":-0.0016518307384103537,"w":-0.9983077049255371},"size":438.068115234375,"orthographic":false}
+>>>>>>> parent of 5c77ab0 (Primeira conexão multiplayer)

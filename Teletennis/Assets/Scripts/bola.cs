@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using Photon.Pun;
 
-public class bola : MonoBehaviour //Antigo
-//public class bola : MonoBehaviourPunCallbacks
+public class bola : MonoBehaviour
 {
     private Vector3 direction;
     public float speed;
@@ -60,8 +58,6 @@ public class bola : MonoBehaviour //Antigo
             Instantiate(goalEffect, this.transform.position, Quaternion.identity);
             transform.position = spawnPoint;
         }
-        
     }
-
 
 }
