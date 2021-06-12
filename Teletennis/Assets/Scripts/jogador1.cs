@@ -17,9 +17,9 @@ public class jogador1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A)){
+        if (Input.GetKey(KeyCode.D)){
             rb.velocity = new Vector3(-speed, 0,0);//Anda para esquerda
-        } else if (Input.GetKey(KeyCode.D)){
+        } else if (Input.GetKey(KeyCode.A)){
             rb.velocity = new Vector3(speed, 0,0);//Anda para direita
         } else {
             rb.velocity = new Vector3(0,0,0);
