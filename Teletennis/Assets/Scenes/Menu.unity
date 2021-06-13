@@ -1119,8 +1119,8 @@ RectTransform:
   m_Children:
   - {fileID: 48774923}
   - {fileID: 885668795}
-  - {fileID: 468050906}
   - {fileID: 1533211805}
+  - {fileID: 468050906}
   - {fileID: 1406695021}
   m_Father: {fileID: 502907693}
   m_RootOrder: 2
@@ -1653,11 +1653,11 @@ RectTransform:
   - {fileID: 1509218727}
   - {fileID: 437696892}
   m_Father: {fileID: 333874346}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 15}
+  m_AnchoredPosition: {x: 0, y: 96.39999}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &468050907
@@ -2692,7 +2692,7 @@ GameObject:
   - component: {fileID: 885668797}
   - component: {fileID: 885668796}
   m_Layer: 5
-  m_Name: Encontrar
+  m_Name: EncontrarPartida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2715,7 +2715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 61.2}
+  m_AnchoredPosition: {x: 0, y: 56.8}
   m_SizeDelta: {x: 328.6444, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885668796
@@ -2761,7 +2761,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 885668797}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 641530608}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: JoinGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &885668797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3038,7 +3050,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: Crie ID da partida
 --- !u!222 &1009146517
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3756,7 +3768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -104.3}
+  m_AnchoredPosition: {x: 0, y: -29.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1406695022
@@ -3979,7 +3991,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: Digite o ID da partida
 --- !u!222 &1509218726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4039,11 +4051,11 @@ RectTransform:
   m_Children:
   - {fileID: 630552197}
   m_Father: {fileID: 333874346}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -61}
+  m_AnchoredPosition: {x: 0, y: -70}
   m_SizeDelta: {x: 243.3808, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1533211806
@@ -4089,7 +4101,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1533211807}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 641530608}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: CreateGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1533211807
 MonoBehaviour:
   m_ObjectHideFlags: 0

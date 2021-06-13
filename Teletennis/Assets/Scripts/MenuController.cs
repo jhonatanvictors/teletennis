@@ -41,4 +41,23 @@ public class MenuController : MonoBehaviour
         PhotonNetwork.playerName = UsernameInput.text;
         //Ele irá mostrar o menu de join e create por meio do unity, mas ele não irá verificar a validade do usuário ou se deu certo, é apenas um evento onclick que faz aparecer o menu.
     }
+
+    public void CreateGame(){
+        PhotonNetwork.CreateRoom(CreateGameInput.text, new RoomOptions(){
+            maxPlayers = 2
+        }, null);
+    }
+
+    public void JoinGame(){
+        RoomOptions roomOptions = new RoomOptions();
+        roomOptions.maxPlayers = 2;
+        PhotonNetwork.JoinOrCreateRoom(JoinGameInput.text, roomOptions, TypedLobby.Default);
+    }
+
+    private void OnJoinedRoom(){
+        PhotonNetwork.LoadLevel("JogoFase1");
+    }
+
+
+//Fim da "public class MenuController : MonoBehaviour"
 }

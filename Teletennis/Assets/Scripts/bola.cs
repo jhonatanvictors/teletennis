@@ -8,9 +8,9 @@ public class bola : MonoBehaviour
     private Vector3 direction;
     public float speed;
 
-    [SerializeField]
+    
     private int playerOneScore;
-    [SerializeField]
+    
     private int playerTwoScore;
 
     public Vector3 spawnPoint;
@@ -27,6 +27,11 @@ public class bola : MonoBehaviour
     {
         playerOneScore = 0;
         playerTwoScore = 0;
+        
+        Invoke("comecar",2);
+    }
+
+    public void comecar(){
         this.direction = new Vector3 (1f,0f,1f);
     }
 
