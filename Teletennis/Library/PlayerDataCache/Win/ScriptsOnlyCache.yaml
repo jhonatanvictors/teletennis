@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - PunSceneSettings
     Assembly-CSharp.dll:
     - AudioRpc
     - ClickAndDrag
@@ -33,6 +35,7 @@ ScriptsOnlyBuild:
     - PickupController
     - PlayerDiamond
     - RPGMovement
+    - SFXManager
     - ServerSettings
     - ShowInfoOfPlayer
     - ThirdPersonCamera
@@ -63,6 +66,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
@@ -93,6 +97,10 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -130,6 +138,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3858}
     - Class: 114
       Script: {instanceID: 3916}
+    - Class: 114
+      Script: {instanceID: 52410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -256,6 +266,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2534}
     - Class: 114
+      Script: {instanceID: 2540}
+    - Class: 114
       Script: {instanceID: 2558}
     - Class: 114
       Script: {instanceID: 2568}
@@ -322,7 +334,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3996}
     - Class: 114
-      Script: {instanceID: 20188}
+      Script: {instanceID: 50376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1468,6 +1480,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Demo2DJumpAndRun
+  - hash:
+      serializedVersion: 2
+      Hash: 1f7e808498d2d3b95d9aa4f3049d1ff1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SFXManager
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu.unity
