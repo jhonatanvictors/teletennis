@@ -43,6 +43,7 @@ public class MenuPausa : MonoBehaviour
 
     public void LoadMenu(){
         Time.timeScale = 1f;
+        PhotonNetwork.LeaveRoom();
         SceneManager.LoadScene(0);
         //No botão File > Build settings > Scenes in build dá pra achar o número da cena
     }
