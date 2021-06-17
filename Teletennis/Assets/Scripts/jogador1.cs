@@ -32,4 +32,5 @@ public class jogador1 : Photon.MonoBehaviour
                 rb.velocity = new Vector3(0,0,0);
             }
     }
+
 }
